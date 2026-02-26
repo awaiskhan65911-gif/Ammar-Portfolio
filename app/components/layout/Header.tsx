@@ -30,7 +30,7 @@ export const Header = () => {
                         <li key={item.name}>
                             <a
                                 href={item.href}
-                                className={`relative text-[14px] font-normal leading-[100%] tracking-wider pb-1.5 transition-colors duration-200 ${isActive(item.href) ? 'text-[#222222]' : 'text-[#222222A3]'
+                                className={`relative text-[14px] font-normal leading-[100%] tracking-wider pb-1.5 transition-colors duration-200 font-Futura ${isActive(item.href) ? 'text-[#222222]' : 'text-[#222222A3]'
                                     }`}
                                 onMouseEnter={() => setHoveredItem(item.name)}
                                 onMouseLeave={() => setHoveredItem(null)}

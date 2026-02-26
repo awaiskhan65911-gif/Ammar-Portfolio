@@ -1,1 +1,96 @@
 @import "tailwindcss";
+
+/* Helvetica Neue Fonts */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/HelveticaNeueThin.woff2") format("woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/fonnts.com-Helvetica_Neue_CE_35_Thin.woff") format("woff");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/HelveticaNeueLight.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/HelveticaNeueMedium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/HelveticaNeueRoman.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/HelveticaNeueMediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/HelveticaBold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/HelveticaNeueBold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/My-Website-Font/fonnts.com-HelveticaNeueLTStd-Blk.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("/assets/My-Website-Font/Helvetica_Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+/* Futura Font */
+@font-face {
+  font-family: "Futura";
+  src: url("/assets/My-Website-Font/futura-web-pt-book.woff2") format("woff2");
+  font-weight: 400;
+}
+
+/* Saol Display Font */
+@font-face {
+  font-family: "Saol Display";
+  src: url("/assets/My-Website-Font/SaolDisplay-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Saol Display";
+  src: url("/assets/My-Website-Font/SaolDisplay-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@layer utilities {
+  .font-helvetica {
+    font-family: "Helvetica Neue", "Helvetica", system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .font-Futura {
+    font-family: "Futura", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", sans-serif;
+  }
+}
