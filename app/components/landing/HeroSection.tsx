@@ -1,13 +1,13 @@
 
 export const HeroSection = () => {
     return (
-        <section className="">
+        <section className=" px-[40px]">
             <div className="relative">
             <div className="relative">
             <h3 className="absolute top-5 left-8 text-[13px] font-medium leading-[133%] font-helvetica">Hello, I’m</h3>
             <h1 className="font-helvetica font-light italic uppercase text-[96px] tracking-[-9px]">Aimii Sheikh</h1>
             </div>
-            <h1 className="font-helvetica font-light italic uppercase text-[96px] tracking-[-9px] absolute right-0 inline top-20">Rapid Planner</h1>
+            <h1 className="font-helvetica font-light uppercase text-[96px] tracking-[-4px] absolute right-0 inline top-20">Rapid Planner</h1>
             </div>
             <div className="flex flex-col items-center justify-center max-w-[448px] mx-auto">
             <div>

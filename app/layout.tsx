@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-helvetica bg-white px-[40px]`}
+        className={`overflow-x-hidden bg-white `}
       >
         <Header />
         {children}
